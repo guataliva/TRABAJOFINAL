@@ -7,7 +7,7 @@ Algoritmo PiedraPaepelytijera
 	definir usuario,pc Como Entero
 	definir opcr Como Caracter
 	repetir
-	escribir "      ingrese una opción      "
+	escribir "      ingrese una opciÃ³n      "
 	escribir "Recorda que solo es del 1 al 3"
 	Escribir " "
 	
@@ -62,9 +62,9 @@ Algoritmo PiedraPaepelytijera
 	
 	
 	si usuario == pc Entonces
-		escribir "ºººººººººººººººººº"
+		escribir "ÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂº"
 		escribir "Eureka, Empataron." 
-		escribir "ºººººººººººººººººº"
+		escribir "ÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂº"
 		escribir""
 		escribir "     ######"
 		escribir "   ##########"
@@ -83,29 +83,29 @@ Algoritmo PiedraPaepelytijera
 		Escribir ""
 	SiNo
 		si usuario == 1 y pc == 3 Entonces
-			escribir "ººººººººººººººººººººº"
+			escribir "ÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂº"
 			escribir "GANASTE, felicidades." 
-			escribir "ººººººººººººººººººººº"
+			escribir "ÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂº"
 		sino 
 			si usuario == 2 y pc == 1 Entonces
-				escribir "ººººººººººººººººººººº"
+				escribir "ÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂº"
 				escribir "GANASTE, felicidades." 
-				escribir "ººººººººººººººººººººº"
+				escribir "ÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂº"
 			sino 
 				si usuario == 3 y pc == 2 Entonces
-					escribir "ººººººººººººººººººººº"
+					escribir "ÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂº"
 					escribir "GANASTE, felicidades." 
-					escribir "ººººººººººººººººººººº"
+					escribir "ÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂº"
 				SiNo
-					escribir "ººººººººººººººººººººººººººººººººººººººººººººººººººººººº"
-					escribir "PERDISTE, Pc te ganó, inténtalo nuevamente. (LERU LERU)"
-					escribir "ººººººººººººººººººººººººººººººººººººººººººººººººººººººº"
+					escribir "ÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂº"
+					escribir "PERDISTE, Pc te ganÃ³, intÃ©ntalo nuevamente. (LERU LERU)"
+					escribir "ÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂºÂº"
 				FinSi
 			FinSi
 		FinSi
 	FinSi
 	escribir ""
-	escribir "¿Desea intentarlo nuevamente? Ingrese S para continuar y N para salir."
+	escribir "Â¿Desea jugar nuevamente? Ingrese S para continuar y N para salir."
 	escribir ""
 	leer opcr;
 	
